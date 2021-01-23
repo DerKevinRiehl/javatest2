@@ -1,0 +1,19 @@
+
+package:
+  name: "javatest2"
+  version: "1.0.0"
+
+requirements:
+  host:
+    - python
+  run:
+    - python
+
+about:
+  home: https://github.com/DerKevinRiehl
+  license: BSD
+  license_family: BSD
+  license_file: 
+  summary: "javatest summary"
+  doc_url: https://github.com/DerKevinRiehl
+  dev_url: https://github.com/DerKevinRiehl
