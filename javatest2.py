@@ -1,11 +1,13 @@
+
+
 #!/usr/bin/env python
-#
+
 # Wrapper script for Java Conda packages that ensures that the java runtime
 # is invoked with the right options. Adapted from the bash script (http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in/246128#246128).
 
-#
+
 # Program Parameters
-#
+
 import os
 import subprocess
 import sys
@@ -113,8 +115,8 @@ def main():
         jar_arg = '-cp'
     else:
         jar_arg = '-jar'
-    
-    script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in    
+
+    script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
     #jar_path = os.path.join(jar_dir, jar_file)
     jar_path = os.path.join(script_dir, jar_file)
 
@@ -126,3 +128,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
